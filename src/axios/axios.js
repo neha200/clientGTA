@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosFetch= axios.create({
-    baseURL: 'http://localhost:9090',
+    baseURL: 'https://gta-server-connect.onrender.com',
     headers:{
         Accept:'application/json',
     },
